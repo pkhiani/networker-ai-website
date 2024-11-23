@@ -1,0 +1,14 @@
+/* Remove Google Fonts import since we'll use local fonts */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  @apply antialiased text-gray-900;
+}
